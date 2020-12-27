@@ -1,0 +1,29 @@
+@media (max-width: 768px){
+    .formFname {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .formLname {
+        width: 100%;
+    }
+    input#submit {
+        width: 100%;
+        margin-top: 6vh;
+        font-size: 24px;
+    }
+    #backHome {
+        width: 60%;
+        margin-top: 5vh;
+        font-size: 20px;
+    }
+    #showPercent{
+        width: 40%;
+    }
+    span.showfName{
+        width: 45%;
+    }
+    span.showlName{
+        width: 45%;
+    }
+}

@@ -1,0 +1,99 @@
+*{margin:0;padding:0}
+#mainSection{
+    background-image: url(../img/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div#valueGivenForm {
+    margin-top: 10%;
+    box-shadow: inset -1px 0px 12px 0px #414040ad;
+    background: #7472726b;
+}
+.title {
+    background: #0f1755;
+}
+input#fName {
+    font-size: 24px;
+    background: #e7e7e782;
+    color: black;
+}
+input#lName {
+    font-size: 24px;
+    background: #e7e7e782;
+    color: black;
+}
+
+.formFname {
+    width: 40%;
+}
+
+.formLname {
+    width: 40%;
+}
+
+input#submit {
+    width: 20%;
+    margin: auto;
+    margin-top: 15vh;
+    font-size: 25px;
+}
+#wrongMsgShow {
+    padding: 15px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #f4f4f4;
+    font-weight: bolder;
+}
+
+/******Result field*********/
+div#showResult {
+    margin-top: 10%;
+    box-shadow: inset -1px 0px 12px 0px #414040ad;
+    background: #7472726b;
+    display: none;
+}
+span.showfName {
+    width: 40%;
+    background: red;
+    padding: 6px 8px;
+    text-align: center;
+}
+span.showlName {
+    width: 40%;
+    background: red;
+    padding: 6px 8px;
+    text-align: center;
+}
+.button {
+    text-align: center;
+}
+
+#backHome {
+    width: 20%;
+    margin: auto;
+    margin-top: 5vh;
+    font-size: 25px;
+}
+#showPercent {
+    padding: 15px 0;
+    font-size: 24px;
+    width: 15%;
+    margin: auto;
+    margin-top: 13vh;
+    font-family: arial black;
+    text-align: center;
+    color: #f4f4f4;
+    font-weight: bolder;
+    background: #625e5e59;
+}
+div#luckyMsg {
+    margin-top: 18px;
+    font-size: 24px;
+}
+div#wrongMsgShow {
+    margin-top: 18px;
+    font-size: 24px;
+}
